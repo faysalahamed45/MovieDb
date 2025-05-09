@@ -1,7 +1,8 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://movie-database-api-h01f.onrender.com/api",
+  //https://movie-database-api-h01f.onrender.com
 });
 
 api.interceptors.request.use((req) => {

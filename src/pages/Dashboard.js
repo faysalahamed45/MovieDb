@@ -55,7 +55,7 @@ export default function Dashboard() {
               className="relative bg-gray-900 text-white rounded overflow-hidden shadow-lg group transition transform hover:scale-105 duration-300"
             >
               <img
-                src={`http://localhost:5000${movie.image}`}
+                src={movie.image}
                 alt={movie.title}
                 className="w-full h-48 object-cover group-hover:opacity-30 transition duration-300"
               />
