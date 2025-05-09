@@ -2,6 +2,7 @@ import axios from "axios";
 
 const api = axios.create({
   baseURL: "https://movie-database-api-h01f.onrender.com/api",
+   //baseURL: "http://localhost:5000/api",
   //https://movie-database-api-h01f.onrender.com
 });
 
