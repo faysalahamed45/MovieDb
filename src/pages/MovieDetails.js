@@ -35,7 +35,7 @@ export default function MovieDetails() {
         {/* Left: Poster */}
         <div className="h-full">
           <img
-            src={`http://localhost:5000${movie.image}`}
+            src={movie.image}
             alt={movie.title}
             className="w-full h-full object-cover"
           />
